@@ -1,6 +1,6 @@
 <?php
 //Title : Login
-//Description : Controls loin for NoTrack, validating username and password, and throttling password attemtps
+//Description : Controls login for NoTrack, validating username and password, and throttling password attemtps
 //Author : QuidsUp
 //Date : 2015-03-25
 //Password attempts are throttled by use of Memcache, a variable is placed in there with the duration set by $Config['Delay']. If this variable is present then no checking will take place until the variable is cleared.
